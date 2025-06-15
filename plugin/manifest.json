@@ -26,6 +26,7 @@
     {
       "matches": [
         "https://*.instructure.com/*",
+        "https://canvas.ou.edu/*",
         "https://canvas.vt.edu/*",
         "https://canvas.oregonstate.edu/*",
         "https://canvas.uw.edu/*",
@@ -71,7 +72,6 @@
         "https://canvas.ivc.edu/*",
         "https://unr.canvaslms.com/*",
         "https://canvas.westcoastuniversity.edu/*",
-        "https://canvas.ou.edu/*",
         "https://learning.flatironschool.com/*",
         "https://canvas.pieas.edu.pk/*",
         "https://canvas.endeavour.sa.edu.au/*",
