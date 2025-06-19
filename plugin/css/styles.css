@@ -13,6 +13,7 @@
 
   --DarkMode-Background: #282828 !important;
   --DarkMode-Text: #888 !important;
+  --DarkMode-White: #fff !important;
   --DarkMode-Clear: none !important;
 }
 
@@ -51,7 +52,7 @@ body, .header-bar, .ui-tabs-anchor, .quiz-submission, .ig-header, .accessible-to
 
 .ic-Dashboard-header__layout, div.comment {
     background: #1f1f1f !important;
-    color: var(--DarkMode-Text);
+    color: var(--DarkMode-White);
 }
 
 .Button, .btn {
@@ -60,7 +61,7 @@ body, .header-bar, .ui-tabs-anchor, .quiz-submission, .ig-header, .accessible-to
 }
 
 a {
-    color: var(--DarkMode-Text);
+    color: var(--DarkMode-White);
     text-decoration: var(--DarkMode-Clear);
 }
 
@@ -75,12 +76,12 @@ a {
 }
 
 .Day-styles__root {
-    color: var(--DarkMode-Text);
+    color: var(--DarkMode-White);
 }
 
 .EmptyDays-styles__root {
     background-color: #282828 !important;
-    color: var(--DarkMode-Text);
+    color: var(--DarkMode-White);
 }
 
 .PlannerItem-styles__root {
@@ -168,14 +169,14 @@ a {
 .tox .tox-collection--list .tox-collection__item--enabled,
 .tox .tox-split-button .tox-tbtn.tox-split-button__chevron {
     background-color: #7b7b7b !important;
-    color: var(--DarkMode-Text);
+    color: var(--DarkMode-White);
 }
 
 .tox .tox-tbtn:hover, .tox .tox-split-button:hover, .tox .tox-tbtn.tox-tbtn--enabled:hover,
 .tox .tox-split-button .tox-tbtn.tox-split-button__chevron:hover {
     border-color: #7b7b7b !important;
     background-color: #7b7b7b !important;
-    color: var(--DarkMode-Text);
+    color: var(--DarkMode-White);
 }
 
 .tox .tox-tbtn svg {
