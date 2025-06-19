@@ -10,6 +10,10 @@
   --ic-brand-global-nav-ic-icon-svg-fill--active: #fff;
   --ic-brand-font-color-dark-lightened-15: #C7CDD1;
   --eHiXd-linkColor: #fff;
+
+  --DarkMode-Background: #282828 !important;
+  --DarkMode-Text: #888 !important;
+  --DarkMode-Clear: none !important;
 }
 
 .ic-DashboardCard, .ic-DashboardCard__header_content, .header,
@@ -19,17 +23,17 @@
 , .comments, .roster-tab, .rosterUser, .syllabus_assignment, tbody, .day_date, .table, .table-striped, .ic-flash-error,
 span[role=dialog], span[role=dialog] > div, .agenda-wrapper, .agenda-day, .agenda-event__container,
 .event-details, .rubric_title, .content_box {
-    background-color: #282828 !important;
+    background-color: var(--DarkMode-Background);
 }
 
 .react-rubric tr, .react-rubric th {
-    background-color: #282828 !important;
-    color: #888 !important;
+    background-color: var(--DarkMode-Background);
+    color: var(--DarkMode-Text);
 }
 
 .react-rubric td {
-    background-color: #282828 !important;
-    color: #888 !important;
+    background-color: var(--DarkMode-Background);
+    color: var(--DarkMode-Text);
 }
 
 body, .header-bar, .ui-tabs-anchor, .quiz-submission, .ig-header, .accessible-toggler, .ic-Input, .ic-DashboardCard__box__header {
@@ -47,17 +51,17 @@ body, .header-bar, .ui-tabs-anchor, .quiz-submission, .ig-header, .accessible-to
 
 .ic-Dashboard-header__layout, div.comment {
     background: #1f1f1f !important;
-    color: #fff !important;
+    color: var(--DarkMode-Text);
 }
 
 .Button, .btn {
-    background-color: #282828 !important;
+    background-color: var(--DarkMode-Background) !important;
     color: #C7CDD1 !important;
 }
 
 a {
-    color: #fff !important;
-    text-decoration: none !important;
+    color: var(--DarkMode-Text);
+    text-decoration: var(--DarkMode-Clear);
 }
 
 
@@ -67,16 +71,16 @@ a {
 }
 
 .ic-sidebar-logo {
-    visibility: hidden;
+    visibility: var(--DarkMode-Clear);
 }
 
 .Day-styles__root {
-    color: #fff !important;
+    color: var(--DarkMode-Text);
 }
 
 .EmptyDays-styles__root {
     background-color: #282828 !important;
-    color: #fff !important;
+    color: var(--DarkMode-Text);
 }
 
 .PlannerItem-styles__root {
@@ -88,7 +92,7 @@ a {
 }
 
 .ic-notification__content, table.summary td, #syllabus tr.date.date_passed td{
-    background: none !important;
+    background: var(--DarkMode-Clear);
 }
 
 #minical {
@@ -117,7 +121,7 @@ a {
 }
 
 .ic-Table {
-    color: white !important;
+    color: var(--DarkMode-Text);
 }
 
 .navigation-tray-container button:active::before {
@@ -125,11 +129,11 @@ a {
 }
 
 .question_points_holder {
-    color: none !important;
+    color: var(--DarkMode-Clear);
 }
 
 #questions.assessing, .question {
-    background: none !important;
+    background: var(--DarkMode-Clear);
 }
 
 .pinned-discussions-v2__wrapper, .unpinned-discussions-v2__wrapper, .ic-discussion-row,
@@ -164,14 +168,14 @@ a {
 .tox .tox-collection--list .tox-collection__item--enabled,
 .tox .tox-split-button .tox-tbtn.tox-split-button__chevron {
     background-color: #7b7b7b !important;
-    color: white !important;
+    color: var(--DarkMode-Text);
 }
 
 .tox .tox-tbtn:hover, .tox .tox-split-button:hover, .tox .tox-tbtn.tox-tbtn--enabled:hover,
 .tox .tox-split-button .tox-tbtn.tox-split-button__chevron:hover {
     border-color: #7b7b7b !important;
     background-color: #7b7b7b !important;
-    color: white !important;
+    color: var(--DarkMode-Text);
 }
 
 .tox .tox-tbtn svg {
@@ -188,7 +192,7 @@ code{
 
 .answer_label pre{
     background-color: #5d5d5d !important;
-    border: none !important;
+    border: var(--DarkMode-Clear);
 }
 
 .assignment-name {
@@ -204,4 +208,9 @@ code{
 .student-grades-link {
     background-color: white !important;
     color: black !important;
+}
+
+.css-1kdtqv3-tray__content{
+  background-color: var(--DarkMode-Background);
+    color: var(--DarkMode-Text);
 }
