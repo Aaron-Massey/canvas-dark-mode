@@ -212,6 +212,26 @@ code{
 }
 
 .css-1kdtqv3-tray__content{
-  background-color: var(--DarkMode-Background);
+    background-color: var(--DarkMode-Background);
+    color: var(--DarkMode-Text);
+}
+
+.css-1ta5ds2-baseButton__content{
+    background-color: var(--DarkMode-Background);
+    color: var(--DarkMode-Text);
+}
+
+.css-1ipypu2-view-alert{
+    background-color: var(--DarkMode-Background);
+    color: var(--DarkMode-Text);
+}
+
+.css-zwg64w-view{
+    background-color: var(--DarkMode-Background);
+    color: var(--DarkMode-Text);
+}
+
+.css-g9axq3-textInput__facade{
+    background-color: var(--DarkMode-Background);
     color: var(--DarkMode-Text);
 }
